@@ -1,0 +1,75 @@
+body
+{
+    margin:0px;
+    background-color: darkslategrey;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-sherif ;
+    font-size: 17px;
+
+}
+h1.logo
+{
+    font-size: 44px;
+    font-weight: 700;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top:50px;
+    margin-bottom: 40px;
+}
+nav
+{
+    background-color: rgb(63, 63, 63);
+    text-align: center;
+}
+.menu
+{
+    list-style-type: none;
+    margin:0;
+    padding: 10px;
+    font-size:18px;
+    min-height: 38px;
+    line-height: 200%;
+}
+.menu > li
+{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px dashed #202020;
+}
+.menu > li:first-child
+{
+    border-left: 1px dashed #202020;
+}
+.menu a
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+.menu a:hover
+{
+    color: rgb(138, 162, 182);
+    text-decoration: none;
+}
+.kategorie
+{
+    text-align: center;
+    margin-right: auto;
+    margin-left:auto;
+    padding:0px;
+    width:950px;
+}
+h1
+{
+    font-size: 44px;
+    font-weight: 400;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.autor
+{
+    display: inline-block;
+    margin-top:10px;
+}
